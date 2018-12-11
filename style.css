@@ -1,0 +1,34 @@
+.bird{
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: -100px;
+    left: 0;
+    margin: auto;
+    background: url('./twitter.png') 0 0 no-repeat;
+    width: 150px;
+    height: 150px;
+    animation: wingFlap .5s steps(4) infinite;
+    }
+
+/* .bg{
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: -100px;
+    left: 0;
+    margin: auto;
+    display: block;
+    height: 400px ;
+    width: 400px;
+    background-color: red;
+} */
+
+@keyframes wingFlap{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -600px 0;
+    }
+}
